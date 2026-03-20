@@ -9,7 +9,7 @@ const mult = document.getElementById("mult");
 let multNum = 1;
 let costUpgrade = 10;
 let count = 0;
-let upgrade = 100;
+let upgrade = 1;
 let allowRebirth = false;
 let showMult = false;
 
