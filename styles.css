@@ -23,11 +23,26 @@ h2 {
     color: lime;
 }
 
-#rebirth{
+#rebirth {
     font-size: 0px;
 }
 
-#multTit{
+#multInfo {
+    font-size: 0px;
+    color: rgb(155, 0, 0);
+    margin: 0;
+}
+
+#multTit {
     font-size: 0px;
     color: red;
+}
+
+#multTit:hover #multInfo { /* im going to be transparent with u i just searched ts up and stole it */
+    font-size: 15px;
+}
+
+#amtRebirthsTit {
+    font-size: 0px;
+    color: purple;
 }
