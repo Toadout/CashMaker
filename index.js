@@ -7,6 +7,8 @@ const rebirth = document.getElementById("rebirth");
 const multTit = document.getElementById("multTit");
 const mult = document.getElementById("mult");
 const moneyReqRebirth = document.getElementById("moneyReq");
+const amtRebirths = document.getElementById("amtRebirthsNum");
+const amtRebirthsTit = document.getElementById("amtRebirthsTit");
 let multNum = 1;
 let costUpgrade = 10;
 let count = 0;
@@ -48,6 +50,7 @@ rebirth.onclick = function(){
     costUpgrade = 10;
     upgrade = 1;
     multNum += (0.2*multMult);
+    amtRebirthsNum.textContent = multMult;
     multMult += 1;
     rebirth.style.fontSize = "0px";
     rebirthReq = Number(rebirthReq.toFixed(1)); // Fuck man why is js so weird like the number suddenly becomes 0.000,000,000,000,000,009 and i need 2 roundings jst to fix it
@@ -63,5 +66,6 @@ rebirth.onclick = function(){
     allowRebirth = false;
     if(showMult===false){
         multTit.style.fontSize = "0.5em";
+        amtRebirthsTit.style.fontSize = "0.5em";
     }
 }
