@@ -13,6 +13,8 @@ button{
     border-radius: 7px;
     border-width: 0.1em;
     font-size: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: green;
 }
 
 h1{
@@ -23,8 +25,19 @@ h2 {
     color: lime;
 }
 
+h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+p {
+    font-size: 1px;
+}
+
 #rebirth {
     font-size: 0px;
+    border-color: purple;
 }
 
 #multInfo {
@@ -46,3 +59,4 @@ h2 {
     font-size: 0px;
     color: purple;
 }
+
