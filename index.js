@@ -71,16 +71,6 @@ rebirth.onclick = function(){
         }
     }
 }
-const amtRebirths = document.getElementById("amtRebirthsNum");
-const amtRebirthsTit = document.getElementById("amtRebirthsTit");
-let multNum = 1;
-let costUpgrade = 10;
-let count = 0;
-let upgrade = 1;
-let allowRebirth = false;
-let showMult = false;
-let rebirthReq = 10000;
-let multMult = 1;
 
 function formatNumber(num){
     return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","); // ts wasnt made by me i had to use it cuz when i used toLocaleString it took too long -> lowkey took ts from alien clicker lmao
